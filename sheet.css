@@ -108,6 +108,21 @@ td.sheet-skill-container {
     vertical-align: top;
 }
 
+.attr_skill_group_interpersonal h3,
+.attr_skill_group_technical h3 {
+    padding-top: 22px;
+}
+
+td.sheet-skill-container h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+td.sheet-skill-container label {
+    font-weight: normal;
+}
+
 .sheet-box {
     margin-bottom: 10px;
     border-style: solid;
@@ -126,13 +141,10 @@ td {
 
 .sheet-left {
     vertical-align: top;
-    width: 33%;
-    padding-right: 10px;
 }
 
 .sheet-right {
     vertical-align: top;
-    width: 66%;
 }
 
 .sheet-skill-container-left {
