@@ -9,8 +9,9 @@
     background: #FEFEFA;
     text-align: center;
     font-size: 10px;
-    font-weight: normal; 
-    font-style: normal; 
+    font-weight: normal;
+    font-style: normal;
+    padding: 0;
 }
 
 .charsheet * {
@@ -108,19 +109,39 @@ td.sheet-skill-container {
     vertical-align: top;
 }
 
+.attr_skill_header * {
+    font-size: 11px !important;
+    text-transform: uppercase;
+}
+
+.attr_skill_header p {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 9px !important;
+}
+
 .attr_skill_group_interpersonal h3,
-.attr_skill_group_technical h3 {
+.attr_skill_group_general h3 {
     padding-top: 22px;
 }
 
+.attr_skill_group_interpersonal p,
+.attr_skill_group_general p {
+    padding-top: 32px;
+}
+
 td.sheet-skill-container h3 {
-    font-size: 13px;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 td.sheet-skill-container label {
     font-weight: normal;
+}
+
+.sheet-empty-skill {
+    width: 100px;
 }
 
 .sheet-box {
@@ -137,6 +158,7 @@ td.sheet-skill-container label {
 
 td {
     white-space: nowrap
+    width: 10px;
 }
 
 .sheet-left {
@@ -158,3 +180,57 @@ td {
 .sheet-fullwidth {
     width: 100%;
 }
+
+.sheet-notes {
+    height: 200px;
+}
+
+.sheet-label {
+    width: 250px;
+}
+
+.sheet-pool,
+.sheet-divider {
+    width: 20px;
+}
+
+.sheet-divider {
+    text-align: center;
+}
+
+[name*=attr_weapon] {
+    background: red;
+}
+
+[name*=attr_weapon_notes] {
+    width: 320px !important;
+    background: red;
+}
+
+[name*=attr_sources_of_pillars_of_sanity] {
+    margin-bottom: 22px;
+}
+
+[name*=attr_occupational_special],
+[name*=attr_pillars_of_sanity],
+[name*=attr_sources_of_stability],
+[name*=attr_mental_disorders] {
+    height: 104px;
+}
+
+.sheet-weapons .sheet-details {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+[name*=attr_weapon_ammo],
+[name*=attr_weapon_point_blank],
+[name*=attr_weapon_close],
+[name*=attr_weapon_near],
+[name*=attr_weapon_long] {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
